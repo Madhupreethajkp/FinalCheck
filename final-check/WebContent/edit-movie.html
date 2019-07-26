@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Edit Movie</title>
+<link rel="stylesheet" type="text/css" href="style/Header.css">
+<script src="js/practice.js"></script>
+</head>
+<body>
+<div class="d">
+<img style="height:43px" src="images/first.png" />
+<a class="link" href="movie-list-admin.html">Movies</a>
+</div>
+<br>
+<br>
+<div class="m">
+<h1>Edit Movie</h1>
+
+<form name="menu" method="" action="edit-movie-status.html" onsubmit="return validate()">
+<table id="edit_tab">
+<tr>
+Title
+</tr>
+<br>
+<tr>
+<input type="text" name="name" id="name" size="170" autofocus/>
+
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td>Gross ($)</td>
+<td>Active</td>
+<td>Date Of Launch</td>
+<td>Genre</td>
+</tr>
+<tr>
+<td><input type="text" name="price" id="price"/></td>
+<td><input type="radio" name="active" id="active" checked/>Yes
+<input type="radio" name="active" id="active"/>No </td>
+<td><input type="date" name="date" id="date"/></td>
+<td><select name="genre">
+<option value="">None
+<option value="Superhero">Superhero
+<option value="Science Fiction">Science Fiction
+<option value="Romnance">Romance
+<option value="Comedy">Comedy
+<option value="Adventure">Adventure
+<option value="Thriller">Thriller
+</select>
+</td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr
+<tr>
+<td><input type="checkbox" name="delivery" id="delivery"/>
+Has Teaser</td>
+</tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr
+<tr>
+<td><input type="submit" value="Save" class="save"/></td>
+</tr>
+
+
+</table>
+
+</form>
+</div>
+<footer class="footer">
+Copyright &copy; 2019
+</footer>
+</body>
+</html>
